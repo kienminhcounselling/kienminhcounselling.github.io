@@ -37,6 +37,10 @@ body {
     color: var(--heading-green);
     text-decoration: none !important;
     font-weight: 600;
+    
+    /* Cho phép chữ ngắt dòng linh hoạt khi gặp lề */
+    overflow-wrap: anywhere; /* Chuẩn mới nhất, bẻ dòng tại bất kỳ ký tự nào khi cần */
+    word-break: break-word;  /* Hỗ trợ các trình duyệt cũ hơn */
 }
 
 .header-email {
